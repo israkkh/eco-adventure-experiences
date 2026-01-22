@@ -2,7 +2,7 @@
   {
     "id": "001",
     "title": "Summit Conquest: Everest Base Camp",
-    "image": "https://images.unsplash.com/photo-1544450173-8c8799935b60",
+    "image": "https://img.freepik.com/premium-photo/trekker-trek-everest-base-camp-3-pass-lobuche-gokyo-nepal-winter_73740-48.jpg?semt=ais_hybrid&w=740&q=80",
     "categoryName": "Mountain Treks",
     "shortDescription": "Experience the ultimate high-altitude adventure in the heart of the Himalayas.",
     "cost": 1200,
@@ -18,7 +18,7 @@
   {
     "id": "002",
     "title": "Azure Depths: Great Barrier Reef",
-    "image": "https://images.unsplash.com/photo-1544551763-47a0159c9636",
+    "image": "https://www.dreamsabroad.com/wp-content/uploads/2025/04/scuba-diving-great-barrier-reef-scaled.jpg",
     "categoryName": "Ocean Dives",
     "shortDescription": "Explore the world's largest coral reef system with expert marine biologists.",
     "cost": 450,
@@ -82,7 +82,7 @@
   {
     "id": "006",
     "title": "Sundarbans Mangrove Quest",
-    "image": "https://images.unsplash.com/photo-1621682377954-4402e61459bb",
+    "image": "https://www.tbsnews.net/sites/default/files/styles/infograph/public/images/2023/09/03/sundarban_0.jpg",
     "categoryName": "Mangrove Forest Expeditions",
     "shortDescription": "Navigate the mysterious tidal halophytic mangroves and spot the Royal Bengal Tiger.",
     "cost": 300,
