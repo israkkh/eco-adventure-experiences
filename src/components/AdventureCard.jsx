@@ -3,14 +3,14 @@ const AdventureCard = ({ adventure }) => {
     const { title, image, ecoFriendlyFeatures, id } = adventure;
 
     return (
-        <div className="card bg-base-100 shadow-xl border border-gray-100 flex flex-col h-full">
+        <div className="card bg-base-100 shadow-xl border border-gray-100 flex flex-col h-full ">
             <figure className="px-4 pt-4">
                 <img
                     src={image}
                     alt={title}
                     className="rounded-xl h-48 w-full object-cover" />
             </figure>
-            <div className="card-body flex flex-col flex-grow">
+            <div className="card-body flex flex-col flex-grow ">
                 <h2 className="card-title text-purple-700">{title}</h2>
                 
                 <div className="mt-2 flex-grow">

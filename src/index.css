@@ -124,3 +124,22 @@
     @apply bg-background text-foreground;
   }
 }
+/* Target the individual moving cards */
+.purple-glow-gallery .circular-gallery-item {
+  /* This creates the 'Neon' effect around the card shape */
+  filter: drop-shadow(0 0 5px rgba(168, 85, 247, 0.8)) 
+          drop-shadow(0 0 15px rgba(168, 85, 247, 0.4));
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Make the glow intensify when the user hovers */
+.purple-glow-gallery .circular-gallery-item:hover {
+  filter: drop-shadow(0 0 10px rgba(168, 85, 247, 1)) 
+          drop-shadow(0 0 25px rgba(168, 85, 247, 0.6))
+          brightness(1.1);
+}
+
+
+.purple-glow-gallery img {
+  border: 1.5px solid rgba(168, 85, 247, 0.5);
+}
