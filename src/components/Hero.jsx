@@ -1,7 +1,7 @@
 import Ballpit from "./Ballpit";
 import RippleGrid from "./RippleGrid"; // Path to the file we updated
 import Threads from "./Thread";
-
+import ElectricBorder from "./ElectricBorder";
 const Hero = () => {
   return (
     <section className="relative w-full h-[500px] md:h-[700px]   flex items-center justify-center overflow-hidden">
@@ -32,9 +32,17 @@ const Hero = () => {
 
         {/* Buttons: pointer-events-auto makes them clickable again */}
         <div className="mt-8 flex gap-4 justify-center pointer-events-auto">
+          <ElectricBorder
+              color="#7F00FF"
+              speed={1}
+              chaos={0.12}
+              thickness={2}
+              style={{ borderRadius: 16 }}
+            >
           <button className="btn bg-[#8b5cf6] hover:bg-[#7e22ce] text-white border-none rounded-full px-8 shadow-lg hover:scale-105 transition-all">
             Book Adventure
           </button>
+          </ElectricBorder>
           <button className="btn btn-outline border-[#c084fc] text-[#4c1d95] rounded-full px-8 hover:bg-white/50">
             Learn More
           </button>

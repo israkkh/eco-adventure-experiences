@@ -11,7 +11,7 @@
     "duration": "14 Days",
     "adventureLevel": "Hard",
     "includedItems": ["High-altitude gear", "Professional guide", "Meals", "Permits"],
-    "ecoFriendlyFeatures": ["Zero-waste policy", "Solar-powered camps", "Local guide support"],
+    "ecoFriendlyFeatures": ["Zero-waste policy", "Solar-powered camps"],
     "maxGroupSize": 12,
     "specialInstructions": ["Requires physical fitness certificate", "Must carry personal reusable water bottle"]
   },

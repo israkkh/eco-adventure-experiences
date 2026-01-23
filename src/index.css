@@ -143,3 +143,9 @@
 .purple-glow-gallery img {
   border: 1.5px solid rgba(168, 85, 247, 0.5);
 }
+.custom-text-style {
+  background: linear-gradient(90deg, #7c3aed, #a855f7, #d8b4fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 14px rgba(168, 85, 247, 0.5);
+}
