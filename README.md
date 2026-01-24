@@ -3,7 +3,7 @@
 A high-performance blog-website platform for eco-friendly travel enthusiasts.
 
 ##  Live Link
-[Insert my Netlify/Firebase URL here later]
+[https://eco-adventures-deploy.netlify.app]
 
 ##  Tech Stack
 - **Framework:** React.js (Vite)
