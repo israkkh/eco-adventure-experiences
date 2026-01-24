@@ -4,6 +4,7 @@ import RippleGrid from "../components/RippleGrid";
 import Hero from "../components/Hero";
 import CircularGallery from "@/components/CircularGallery";
 import TrueFocus from "@/components/TrueFocus";
+import { MorphingText } from "@/components/ui/morphing-text";
 const Home = () => {
   const [adventures, setAdventures] = useState([]);
 
@@ -43,6 +44,10 @@ const Home = () => {
           borderRadius={0.12}
           scrollEase={0.05}
         />
+      </div>
+      <div className="pb-40 py-20 text-5xl md:text-8xl font-black text-[#613ca5] mb-4 tracking-tight">
+        <MorphingText texts={["Thank You", "for experiencing ", "with us"]} />
+        
       </div>
     </div>
   );

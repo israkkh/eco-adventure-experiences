@@ -9,7 +9,7 @@ const AdventureCard = ({ adventure }) => {
       color="#7F00FF"
       speed={1}
       chaos={0.12}
-      thickness={2}
+      thickness={1.5}
       style={{ borderRadius: 16 }}
     >
       <div className="card bg-base-100 shadow-xl border border-gray-200 flex flex-col h-full rounded-xl overflow-hidden">
