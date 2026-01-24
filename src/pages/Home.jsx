@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import AdventureCard from "../components/AdventurCard";
+import AdventureCard from "../components/AdventureCard";
 import RippleGrid from "../components/RippleGrid";
 import Hero from "../components/Hero";
 import CircularGallery from "@/components/CircularGallery";
@@ -54,4 +54,3 @@ const Home = () => {
 };
 export default Home;
 //<div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(168,85,247,0.15)_0%,transparent_50%)] pointer-events-auto"></div>
-n
